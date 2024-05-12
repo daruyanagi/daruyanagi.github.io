@@ -1,7 +1,7 @@
 ---
 title: Hugo でデイリーポストを生成する PowerShell
 date: 2024-05-12T15:11:02.0139575+09:00
-tags: ['PowerShell']
+tags: ['PowerShell', 'Hugo']
 ---
 
 ![Hugo でデイリーポストを生成する PowerShell](image1.png)
