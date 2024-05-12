@@ -8,6 +8,11 @@ title: About
 
 性格、極めてダルダルにして、麦酒をこよなく愛す。趣味はバイク・クルマ、読書（経済学、歴史、哲学）、日曜プログラミング（C#/Ruby）、神社の御朱印集めを嗜み、ごくまれに競艇をものす。
 
+所持している免許
+- 普通自動車
+- 大型自動二輪車
+- 移動式クレーン運転士
+
 Hidetoshi Yanagi
 - [https://facebook.com/YanagiHidetoshi](https://facebook.com/YanagiHidetoshi)
 - [https://x.com/YanagiHidetoshi](https://x.com/YanagiHidetoshi)
