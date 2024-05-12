@@ -41,6 +41,9 @@ theme = 'hugo-coder'
   tag = "tags"
   author = "authors"
 
+[markup.highlight]
+style = "monokai"
+
 # Social links
 [[params.social]]
   name = "Facebook"
