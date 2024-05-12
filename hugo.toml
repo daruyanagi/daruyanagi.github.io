@@ -6,8 +6,9 @@ hasCJKLanguage = true
 enableGitInfo = true
 paginate = 20
 
-publishDir = "../docs"
-relativeURLs = true
+publishDir = "/docs"
+# publishDir = "../docs"
+# relativeURLs = true
 
 theme = 'hugo-coder'
 
