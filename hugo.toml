@@ -73,7 +73,7 @@ theme = 'hugo-coder'
   url = "https://amzn.asia/4Geihep"
 [[params.social]]
   name = "Feed"
-  icon = "fa-brands fa-square-rss fa-2x"
+  icon = "fa-solid fa-square-rss fa-2x"
   weight = 10
   url = "/index.xml"
 
