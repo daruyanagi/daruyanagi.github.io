@@ -16,7 +16,7 @@ Hugo では `hugo new post/hello.md` することで `archetypes/default.md` な
 
 そんな訳で、年月日でフォルダー階層（./content/2024/05/12/）を自動で掘って、名前(index.md)まで自動でつけるスクリプト `Get-TodaysPost.ps1` を PowerShell で書いてみた。
 
-```poweshell
+```pwsh
 
 $year = Get-Date -Format "yyyy"
 $month = Get-Date -Format "MM"
