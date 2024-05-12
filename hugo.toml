@@ -1,0 +1,75 @@
+baseURL = 'https://daruyanagi.github.io/'
+languageCode = 'ja-jp'
+title = 'daruyanagi'
+
+hasCJKLanguage = true
+enableGitInfo = true
+paginate = 20
+
+theme = 'hugo-coder'
+
+[params]
+  author = "YANAGI Hidetoshi (daruyanagi)"
+  info = "Fleelance technical writer"
+  description = "daruyanagi's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "https://pbs.twimg.com/profile_images/1486854996163391490/3uoc6IV7_400x400.jpg"
+  #gravatar = "mail@daruyanagi.jp"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+  [taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Facebook"
+  icon = "fa-brands fa-facebook fa-2x"
+  weight = 3
+  url = "https://facebook.com/YanagiHidetoshi/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/YanagiHidetoshi/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/daruyanagi/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/daruyanagi/"
+[[params.social]]
+  name = "Skype"
+  icon = "fa-brands fa-skype fa-2x"
+  weight = 3
+  url = "https://join.skype.com/invite/wgp9kEBqGczq"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
