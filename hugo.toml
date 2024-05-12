@@ -6,7 +6,6 @@ hasCJKLanguage = true
 enableGitInfo = true
 paginate = 20
 
-publishDir = "/docs"
 # publishDir = "../docs"
 # relativeURLs = true
 
