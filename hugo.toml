@@ -62,11 +62,6 @@ theme = 'hugo-coder'
   weight = 1
   url = "https://github.com/daruyanagi/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa-brands fa-x-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/daruyanagi/"
-[[params.social]]
   name = "Skype"
   icon = "fa-brands fa-skype fa-2x"
   weight = 3
