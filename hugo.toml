@@ -88,6 +88,10 @@ theme = 'hugo-coder'
   weight = 1
   url  = "posts/"
 [[menu.main]]
+  name = "Tags"
+  weight = 1
+  url  = "tags/"
+[[menu.main]]
   name = "About"
   weight = 2
   url = "about/"
