@@ -44,7 +44,7 @@
 </span></span><span style=display:flex><span><span style=color:#75715e># Open Explorer</span>
 </span></span><span style=display:flex><span>Invoke-Item -Path $folderPath
 </span></span></code></pre></div><p>Hugo のルートフォルダーに <code>.\_template.md</code> を置き、<code>pwsh Get-TodaysPost.ps1</code> を実行すればフォルダーと <code>index.md</code> が作成される。そのとき、テンプレートファイル内の %%DATETIME%% が現在日時に置換される。自分に Golang の心得があれば <code>archetypes/default.md</code> を参照するなど、もう少しスマートな設計にできただろうが、それは今後の課題としておく。</p><p>ちなみに Hugo ではフォルダーをセクションとして扱い、各セクション（フォルダー）を認識させるには、そのルートに <code>_index.md</code> を置かなければならないと聞いた――が、これは古い情報なのだろうか。なくても暗黙に生成されるようなので、コメントアウトしておいた。</p><p>あと、最後にエクスプローラーでファイルを開くコードを一行入れておくと、Visual Studio Code で <code>index.md</code> を開いたり、画像を突っ込んだりするのに便利だ（Visual Studio Code のフォルダービューを使ってもいいのだが、マウス操作が若干シビアに感じる）。</p></div><footer></footer></article></section></div><footer class=footer><section class=container>©
-2019 -
+2018 -
 2024
 YANAGI Hidetoshi (daruyanagi)
 ·
