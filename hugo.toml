@@ -14,9 +14,9 @@ defaultContentLanguage = "ja"
 theme = 'hugo-coder'
 
 [params]
-  author = "YANAGI Hidetoshi (daruyanagi)"
-  info = "Fleelance technical writer"
-  description = "daruyanagi's personal website"
+  author = "YANAGI Hidetoshi"
+  info = "daruyanagi"
+  description = "YANAGI Hidetoshi, aka daruyanagi's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "https://pbs.twimg.com/profile_images/1486854996163391490/3uoc6IV7_400x400.jpg"
   #gravatar = "mail@daruyanagi.jp"
