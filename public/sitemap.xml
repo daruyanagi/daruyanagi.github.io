@@ -2,14 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64036/authors/</loc>
+    <loc>http://localhost:55868/</loc>
+    <lastmod>2024-05-12T15:11:02+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64036/categories/</loc>
+    <loc>http://localhost:55868/posts/2024/05/12/</loc>
+    <lastmod>2024-05-12T15:11:02+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64036/</loc>
+    <loc>http://localhost:55868/posts/</loc>
+    <lastmod>2024-05-12T15:11:02+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64036/series/</loc>
+    <loc>http://localhost:55868/tags/powershell/</loc>
+    <lastmod>2024-05-12T15:11:02+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:64036/tags/</loc>
+    <loc>http://localhost:55868/tags/</loc>
+    <lastmod>2024-05-12T15:11:02+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55868/authors/</loc>
+  </url><url>
+    <loc>http://localhost:55868/categories/</loc>
+  </url><url>
+    <loc>http://localhost:55868/series/</loc>
   </url>
 </urlset>
