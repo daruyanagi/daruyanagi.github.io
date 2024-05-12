@@ -7,6 +7,7 @@ enableGitInfo = true
 paginate = 20
 
 publishDir = "../docs"
+relativeURLs = true
 
 theme = 'hugo-coder'
 
