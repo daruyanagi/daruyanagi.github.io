@@ -62,6 +62,11 @@ theme = 'hugo-coder'
   weight = 5
   url = "https://github.com/daruyanagi/"
 [[params.social]]
+  name = "Hatena Bookmark"
+  icon = "fa-solid fa-question fa-2x"
+  weight = 5
+  url = "https://profile.hatena.ne.jp/daruyanagi/"
+[[params.social]]
   name = "Skype"
   icon = "fa-brands fa-skype fa-2x"
   weight = 7
