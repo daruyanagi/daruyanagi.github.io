@@ -5,6 +5,7 @@ title = 'daruyanagi'
 hasCJKLanguage = true
 enableGitInfo = true
 paginate = 20
+defaultContentLanguage = "ja"
 
 # publishDir = "docs"
 # publishDir = "../docs"
@@ -42,7 +43,7 @@ theme = 'hugo-coder'
   author = "authors"
 
 [markup.highlight]
-style = "monokai"
+  style = "monokai"
 
 # Social links
 [[params.social]]
