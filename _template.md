@@ -1,7 +1,7 @@
 ---
 date: %%DATETIME%%
 title: ああああ
-tags: ['diary']
+tags: ['Diary']
 images:
 - post-cover.png
 draft: true
