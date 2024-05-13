@@ -47,6 +47,12 @@ theme = 'hugo-coder'
 [markup.highlight]
   style = "monokai"
 
+[markup.goldmark.renderer]
+    unsafe = true
+
+[services.rss] 
+    limit = 10
+
 # Social links
 [[params.social]]
   name = "Facebook"
