@@ -1,15 +1,13 @@
 baseURL = 'https://daruyanagi.jp/'
-languageCode = 'ja-jp'
 title = 'daruyanagi'
 
-hasCJKLanguage = true
-enableGitInfo = true
-paginate = 20
+languageCode = 'ja-jp'
 defaultContentLanguage = "ja"
+hasCJKLanguage = true
 
-# publishDir = "docs"
-# publishDir = "../docs"
-# relativeURLs = true
+enableGitInfo = true
+
+paginate = 20
 
 theme = 'hugo-coder'
 
@@ -35,6 +33,8 @@ theme = 'hugo-coder'
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+  dateFormat = "2006-01-02"
 
   [taxonomies]
   category = "categories"
