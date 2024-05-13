@@ -36,6 +36,8 @@ theme = 'hugo-coder'
 
   dateFormat = "2006-01-02"
 
+  commit = "https://github.com/daruyanagi/daruyanagi.github.io/tree/"
+
   [taxonomies]
   category = "categories"
   series = "series"
