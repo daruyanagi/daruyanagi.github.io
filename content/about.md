@@ -20,6 +20,6 @@ Hidetoshi Yanagi
 daruyanagi
 - [https://x.com/daruyanagi](https://x.com/daruyanagi)
 - [https://github.com/daruyanagi](https://github.com/daruyanagi)
-- [https://profile.hatena.ne.jp/daruyanagi/](https://profile.hatena.ne.jp/daruyanagi/)
+- [https://b.hatena.ne.jp/daruyanagi/bookmark](https://b.hatena.ne.jp/daruyanagi/bookmark)
 - [https://www.vector.co.jp/vpack/browse/person/an053039.html](https://www.vector.co.jp/vpack/browse/person/an053039.html)
 
