@@ -34,3 +34,5 @@ GitHub のコントリビューショングラフ（いわゆる芝生だの草�
 ![](/github-grasses.png)
 
 PAD のフローにはグローバルショートカットキーを割り当てられるので、キーとポンと押すだけで GitHub から草を刈り取って、ブログリポジトリに埋めることができる。ブログをプッシュする前に実行してやるとよいだろう。無償ライセンスではサポートされていない定時実行フローを無限ループで無理矢理実現するハックはあるようだが、そこまでの必要はあるまい。
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">あまり手をかけなかった割には、いい感じなんじゃないかな？ もちろんダークモードには対応してないんだけど <a href="https://t.co/LtEWjvu7Jc">pic.twitter.com/LtEWjvu7Jc</a></p>&mdash; 終末だるやなぎどこへいく？ (@daruyanagi) <a href="https://twitter.com/daruyanagi/status/1790274315138834709?ref_src=twsrc%5Etfw">May 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
