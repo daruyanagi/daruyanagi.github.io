@@ -1,5 +1,5 @@
 
-  p:has(img) { text-align: center !important; }
+  p:has(>img) { text-align: center !important; }
 
   #github-grasses {
     position: absolute;
@@ -26,8 +26,6 @@
 
       grid-row: 1 / 2;
       grid-column: 1;
-
-      border-right: 1px solid lightgray;
     }
 
     .web-card-body { 
@@ -38,8 +36,24 @@
       grid-row: 1;
       grid-column: 2;
 
-      p {
+      border-left: 1px solid lightgray;
+
+      .web-card-body-title {
+        margin: 1rem 0;
+      }
+
+      .web-card-body-description {
+        margin: 1rem 0;
         font-size: 75%;
+      }
+
+      .web-card-body-host {
+        margin: 1rem 0;
+        font-size: 75%;
+
+        img {
+          vertical-align: middle;
+        }
       }
     }    
   }

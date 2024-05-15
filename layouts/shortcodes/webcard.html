@@ -79,17 +79,24 @@
         {{ end }}
      
         <div class="web-card-body">
+          <div class="web-card-body-title">
             <a href="{{ $url }}">
-            <!-- og:title が取得できた場合 -->
-            {{ with $title }} 
-                {{ $title }}
-            <!-- og:title が取得できなかった場合 -->
-            {{ else }} 
-                {{ $u.Host | truncate 30 }}
-            {{ end }}
-            </a>
+              <!-- og:title が取得できた場合 -->
+              {{ with $title }} 
+                  {{ $title }}
+              <!-- og:title が取得できなかった場合 -->
+              {{ else }} 
+                  {{ $u.Host | truncate 30 }}
+              {{ end }}
+              </a>
+          </div>
 
-            <p>{{ $description }}</p>
+          <div class="web-card-body-description">{{ $description }}</div>
+
+          <div class="web-card-body-host">
+            <img src="https://www.google.com/s2/favicons?sz=14&amp;domain_url={{ $u.Scheme }}://{{ $u.Host }}"  alt="{{ $u.Host }} favicon image">
+            <a href="{{ $u.Host }}">{{ $u.Host }}</a>
+          </div>
         </div>
      </div>
  
