@@ -1,0 +1,31 @@
+<!--
+
+
+ -->
+
+ {{- $title := .Get "title" -}}
+ {{- $asin := .Get "asin" -}}
+ {{- $image := .Get "image" -}}
+ {{- with $image -}}
+ {{- else -}}
+ {{- $image := "https://images-fe.ssl-images-amazon.com/images/P/%%.09.MZZZZZZZ" -}}
+ {{- $image := replace $image "%%" $asin -}}
+ {{- end -}}
+
+<div class="web-card">
+  <img class="web-card-image" src="{{ $image }}" alt="{{ $title }}" />   
+
+  <div class="web-card-body">
+    <div class="web-card-body-title">
+      <a hred="https://www.amazon.co.jp/dp/{{ $asin }}/?tag=bestylesnet-22">{{ $title }}</a>
+    </div>
+
+    <div class="web-card-body-description"></div>
+
+    <div class="web-card-body-host">
+      <img src="https://www.google.com/s2/favicons?sz=14&amp;domain_url=https://amazon.co.jp"  alt="https://amazon.co.jp favicon image">
+      <a href="https://amazon.co.jp">https://amazon.co.jp</a>
+    </div>
+  </div>
+</div>
+

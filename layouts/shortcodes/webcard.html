@@ -9,30 +9,25 @@
  {{- with $result := resources.GetRemote $url -}}
    <!-- Status Code が 4XX/5XX などGetに失敗する場合 -->
    {{- with $result.Err -}}
-     <div class="web-card hover:cursor-not-allowed h-[120px] bg-white border shadow rounded-lg my-4 sm:my-6 px-0 overflow-hidden">
-       <div class="flex">
-         <div class="flex h-[120px] w-[120px] max-w-[230px] bg-gray-300 justify-center items-center text-center">
-           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-             <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
-           </svg>        
-         </div>
- 
-         <div class="flex flex-1 flex-col justify-between bg-gray-50 py-2 px-4 sm:py-3 sm:px-5 ">
-           <div class="flex flex-1 flex-col gap-y-1">
-             <div class="text-sm sm:text-base font-bold text-gray-800 leading-normal break-words line-clamp-2">
-               {{ $u.Host | truncate 30 }} にアクセスできません
-             </div>
-           </div>
-           
-           <div class="flex flex-1 flex-col justify-end">
-             <div class="flex flex-row items-center">
-               <img src="https://www.google.com/s2/favicons?sz=14&amp;domain_url={{ $u.Scheme }}://{{ $u.Host }}" class="fav-icon mr-1" alt="{{ $u.Host }} favicon image">
-               <span class="text-xs sm:text-sm text-gray-600">{{ $u.Host | truncate 30 }}</span>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
+  <div class="web-card">
+    <svg class="web-card-image" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+    </svg>        
+
+    <div class="web-card-body">
+      <div class="web-card-body-title">
+      {{ $url }} is not found.
+      </div>
+
+      <div class="web-card-body-description"></div>
+
+      <div class="web-card-body-host">
+        <img src="https://www.google.com/s2/favicons?sz=14&amp;domain_url={{ $u.Scheme }}://{{ $u.Host }}"  alt="{{ $u.Host }} favicon image">
+        <a href="{{ $u.Host }}">{{ $u.Host }}</a>
+      </div>
+    </div>
+  </div>
+
    <!-- Status Code が 2XX などGetに成功した場合 -->
    {{- else -}}
      {{- $title := "" -}}

@@ -19,7 +19,7 @@
     grid-template-columns: 120px 1fr;
 
     .web-card-image { 
-      width: 120;
+      width: 120px;
       height: 120px;
 
       object-fit: cover;
