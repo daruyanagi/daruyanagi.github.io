@@ -1,6 +1,6 @@
 ---
 date: 2024-05-15T19:55:50.2605877+09:00
-title: GitHub の草を PowerShell で刈って Blog に植える
+title: GitHub の草を PowerAutomate で刈って Blog に植える
 tags:
 - GitHub
 - PowerAutomate
