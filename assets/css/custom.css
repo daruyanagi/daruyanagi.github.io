@@ -1,5 +1,9 @@
 
-  p:has(>img) { text-align: center !important; }
+  p:has(>img) {
+    text-align: center !important; 
+    background-color: rgba(190, 190, 190, 0.1);
+    padding-top: 1rem;
+  }
 
   #github-grasses {
     position: absolute;
