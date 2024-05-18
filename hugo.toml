@@ -24,7 +24,7 @@ theme = 'hugo-coder'
   favicon_32 = "/favicon-32x32.png"
   favicon_16 = "/favicon-16x16.png"
 
-  since = 2018
+  since = 2007
 
   enableTwemoji = true
 
