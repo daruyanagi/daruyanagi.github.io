@@ -61,4 +61,4 @@ JR 四国のキャッシュレス化は遅れており、ICOCA（SUICA 互換）
 - iOS のウォレットなどにも対応していると利便性が向上しそう
 - 関西往復切符ぐらいは買えるようになってほしい。グリーン席、指定席も買いたい
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こいつ最大の弱点は、ググラビリティの低さだと思う。適当に「すまえき」って検索すると、当然ながら「須磨駅」が出てくる ( ˘ω˘ )<a href="https://t.co/fKATeq1q5e">https://t.co/fKATeq1q5e</a></p>&mdash; 終末だるやなぎどこへいく？ (@daruyanagi) <a href="https://twitter.com/daruyanagi/status/1790238166743408731?ref_src=twsrc%5Etfw">May 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< twitter user="status" id="1790238166743408731" >}}
