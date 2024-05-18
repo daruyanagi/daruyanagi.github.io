@@ -97,6 +97,10 @@ theme = 'hugo-coder'
   weight = 1
   url  = "posts/"
 [[menu.main]]
+  name = "Search"
+  weight = 1
+  url  = "search/"
+[[menu.main]]
   name = "Tags"
   weight = 1
   url  = "tags/"
