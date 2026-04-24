@@ -76,11 +76,6 @@ theme = 'hugo-coder'
   weight = 5
   url = "https://profile.hatena.ne.jp/daruyanagi/"
 [[params.social]]
-  name = "Skype"
-  icon = "fa-brands fa-skype fa-2x"
-  weight = 7
-  url = "https://join.skype.com/invite/wgp9kEBqGczq"
-[[params.social]]
   name = "Amazon"
   icon = "fa-brands fa-amazon fa-2x"
   weight = 10
