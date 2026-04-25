@@ -1,7 +1,7 @@
 ---
 date: 2026-04-25T05:15:46.6900374+09:00
 title: XTimelineViewerが窓の杜で紹介されました
-tags: ['Diary', 'XTimelineViewer']
+tags: ['XTimelineViewer', 'Release']
 images:
 - image1.png
 draft: false
