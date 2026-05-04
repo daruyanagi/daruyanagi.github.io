@@ -20,7 +20,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.125.7'
+          hugo-version: '0.151.2'
+          extended: true
 
       - name: Fetch XTimelineViewer README
         run: |
