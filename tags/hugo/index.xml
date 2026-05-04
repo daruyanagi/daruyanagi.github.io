@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on daruyanagi</title><link>https://daruyanagi.jp/tags/hugo/</link><description>Recent content in Hugo on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 19 May 2024 01:08:25 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo ブログに全文検索機能を付けました</title><link>https://daruyanagi.jp/posts/2024/05/19/</link><pubDate>Sun, 19 May 2024 00:55:22 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/19/</guid><description>ブログに全文検索機能を付けました。 /search から利用できます。 ソースコードは、ほぼ「まくまく Hugo ノート」からいただきました。ありがとうございます。 Hugo に</description></item><item><title>クリックするだけで GitHub Issue を作れるリンクを Hugo ブログに設置する</title><link>https://daruyanagi.jp/posts/2024/05/17/</link><pubDate>Fri, 17 May 2024 00:00:40 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/17/</guid><description>ブログ記事のフッターに「この記事の改善に協力する」というリンクを追加しました。クリックするとこんな感じで、GitHub の Issue 作成画面が開きます</description></item><item><title>Hugo でデイリーポストを生成する PowerShell</title><link>https://daruyanagi.jp/posts/2024/05/12/</link><pubDate>Sun, 12 May 2024 15:11:02 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/12/</guid><description>Hugo では hugo new post/hello.md することで archetypes/default.md などをテンプレートに新規ポストを生成してくれる。 しかし、自分は新しいファイル名を考えるのがだるい。それに、post フ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on daruyanagi</title><link>https://daruyanagi.jp/tags/hugo/</link><description>Recent content in Hugo on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 19 May 2024 01:08:25 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo ブログに全文検索機能を付けました</title><link>https://daruyanagi.jp/posts/2024/05/19/</link><pubDate>Sun, 19 May 2024 00:55:22 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/19/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="開発中の検索画面のスクリーンショット"&gt;&lt;/p&gt;
+&lt;p&gt;ブログに全文検索機能を付けました。 &lt;a href="https://daruyanagi.jp/search" &gt;/search&lt;/a&gt; から利用できます。&lt;/p&gt;
+&lt;p&gt;ソースコードは、ほぼ「まくまく Hugo ノート」からいただきました。ありがとうございます。&lt;/p&gt;
+&lt;div class="web-card"&gt;
+ 
+ &lt;img class="web-card-image" src="https://maku77.github.io/img/site-logo.png" alt="ここでは JavaScript を使ってサイト内の全文検索を実現する方法を示します。全文検索を実現する方法としては、Google カスタム検索を利用する方法もありますが、Google カスタム検索は、インターネット上に公開する Web サイトにしか適用できません。ここで紹介する JavaScript を利用した全文検索は、ローカルで運用する Web サイトでも利用できますし、インクリメンタルサーチも実現することができます。" class="m-0 h-full w-full object-cover shrink-0"&gt;
+ 
+
+ &lt;div class="web-card-body"&gt;
+ &lt;div class="web-card-body-title"&gt;
+ &lt;a href="https://maku77.github.io/p/p4n5m3i/"&gt;
+ 
+ Hugo に全文検索（インクリメンタルサーチ）の機能を付ける
+ 
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+ &lt;div class="web-card-body-description"&gt;ここでは JavaScript を使ってサイト内の全文検索を実現する方法を示します。全文検索を実現する方法としては、Google カスタム検索を利用する方法もありますが、Google カスタム検索は、インターネット上に公開する Web サイトにしか適用できません。ここで紹介する JavaScript を利用した全文検索は、ローカルで運用する Web サイトでも利用できますし、インクリメンタルサーチも実現することができます。&lt;/div&gt;
+
+ &lt;div class="web-card-body-host"&gt;
+ &lt;img src="https://www.google.com/s2/favicons?sz=14&amp;amp;domain_url=https://maku77.github.io" alt="maku77.github.io favicon image"&gt;
+ &lt;a href="maku77.github.io"&gt;maku77.github.io&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;p&gt;加えた変更は、以下の通り。&lt;/p&gt;</description></item><item><title>クリックするだけで GitHub Issue を作れるリンクを Hugo ブログに設置する</title><link>https://daruyanagi.jp/posts/2024/05/17/</link><pubDate>Fri, 17 May 2024 00:00:40 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/17/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;ブログ記事のフッターに「この記事の改善に協力する」というリンクを追加しました。クリックするとこんな感じで、GitHub の Issue 作成画面が開きます。モバイルだと、「GitHub」アプリがインストールしてあれば、そっちが起動するようですね。&lt;/p&gt;</description></item><item><title>Hugo でデイリーポストを生成する PowerShell</title><link>https://daruyanagi.jp/posts/2024/05/12/</link><pubDate>Sun, 12 May 2024 15:11:02 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/12/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="Hugo でデイリーポストを生成する PowerShell"&gt;&lt;/p&gt;
+&lt;p&gt;Hugo では &lt;code&gt;hugo new post/hello.md&lt;/code&gt; することで &lt;code&gt;archetypes/default.md&lt;/code&gt; などをテンプレートに新規ポストを生成してくれる。&lt;/p&gt;
+&lt;p&gt;しかし、自分は新しいファイル名を考えるのがだるい。それに、&lt;code&gt;post&lt;/code&gt; フォルダーに記事ファイルが溜まっていくのも嫌だし、記事と画像を別のフォルダーで管理するのも億劫だ。なので、今日の日記、つまりデイリーポストを書くときは &lt;code&gt;./content/2024/05/12/index.md&lt;/code&gt; を自動生成し、関連画像も &lt;code&gt;./content/2024/05/12/&lt;/code&gt; フォルダーに放り込んでおくスタイルを好む。1 日 1 フォルダーというわけだ。&lt;/p&gt;</description></item></channel></rss>
