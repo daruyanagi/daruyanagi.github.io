@@ -7,9 +7,10 @@ hasCJKLanguage = true
 
 enableGitInfo = true
 
-paginate = 20
-
 theme = 'hugo-coder'
+
+[pagination]
+  pagerSize = 20
 
 [params]
   author = "YANAGI Hidetoshi"
@@ -100,6 +101,10 @@ theme = 'hugo-coder'
   weight = 1
   url  = "tags/"
 [[menu.main]]
-  name = "About"
+  name = "Apps"
   weight = 2
+  url = "apps/"
+[[menu.main]]
+  name = "About"
+  weight = 3
   url = "about/"
