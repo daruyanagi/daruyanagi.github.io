@@ -29,3 +29,13 @@ draft: false
 どっちでも好きなほうをどうぞ。
 
 [リリースの各種自動化 · Issue #31 · daruyanagi/XTimelineViewer](https://github.com/daruyanagi/XTimelineViewer/issues/31)
+
+## 追記（2026-05-16 15:30）
+
+![Microsoft Store 経由のアップデート](image10.png)
+
+Microsoft Store への申請が通りました。たぶんそのうち自動でアップデートされます。
+
+![バージョンノート](image11.png)
+
+バージョンノートも書きました。これはめんどくさいので、CLI で簡単にできないか研究するつもり。
