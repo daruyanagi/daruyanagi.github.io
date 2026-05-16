@@ -20,6 +20,8 @@ draft: false
 
 これに伴い、既存の「ヘッダーを隠す」オプションは、より分かりやすく「サイドバーを隠す」みたいな名前にしました。
 
+そのせいで、**設定が初期化（無効）されています**。ごめんなさい。
+
 あと、 v1.2.x でリリースの自動化をいろいろ試していました。
 
 - GitHub Releases： [Releases · daruyanagi/XTimelineViewer](https://github.com/daruyanagi/XTimelineViewer/releases) ZIP 形式でダウンロードできます
