@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude//Japan WC2026//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:W杯2026 日本代表戦
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:FIFAワールドカップ2026 日本代表 グループステージ全試合 (JST)
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wc2026-japan-match1@claude
+DTSTAMP:20260517T000000Z
+DTSTART;TZID=Asia/Tokyo:20260615T050000
+DTEND;TZID=Asia/Tokyo:20260615T070000
+SUMMARY:【W杯2026】オランダ vs 日本 (グループF 第1節)
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA (ダラス)
+DESCRIPTION:FIFAワールドカップ2026 グループF 第1節\nオランダ代表 vs 日本代表\n会場: AT&T Stadium (ダラス／アーリントン)\nキックオフ: 2026年6月15日(月) 5:00 JST\n現地時間: 2026年6月14日(日) 15:00 CDT\n放送: DAZN / 日本テレビ / FIFA+
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-match2@claude
+DTSTAMP:20260517T000000Z
+DTSTART;TZID=Asia/Tokyo:20260621T130000
+DTEND;TZID=Asia/Tokyo:20260621T150000
+SUMMARY:【W杯2026】チュニジア vs 日本 (グループF 第2節)
+LOCATION:Estadio BBVA\, Monterrey\, Mexico (モンテレイ)
+DESCRIPTION:FIFAワールドカップ2026 グループF 第2節\nチュニジア代表 vs 日本代表\n会場: Estadio BBVA (モンテレイ／メキシコ)\nキックオフ: 2026年6月21日(日) 13:00 JST\n現地時間: 2026年6月20日(土) 22:00 CDT\n放送: DAZN / 日本テレビ / FIFA+
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-match3@claude
+DTSTAMP:20260517T000000Z
+DTSTART;TZID=Asia/Tokyo:20260626T080000
+DTEND;TZID=Asia/Tokyo:20260626T100000
+SUMMARY:【W杯2026】日本 vs スウェーデン (グループF 第3節)
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA (ダラス)
+DESCRIPTION:FIFAワールドカップ2026 グループF 第3節\n日本代表 vs スウェーデン代表\n会場: AT&T Stadium (ダラス／アーリントン)\nキックオフ: 2026年6月26日(金) 8:00 JST\n現地時間: 2026年6月25日(木) 18:00 CDT\n放送: DAZN / 日本テレビ / FIFA+
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-r32-1st@claude
+DTSTAMP:20260517T000000Z
+DTSTART;TZID=Asia/Tokyo:20260630T100000
+DTEND;TZID=Asia/Tokyo:20260630T120000
+SUMMARY:【W杯2026・暫定】ラウンド32 ※グループF 1位通過時
+LOCATION:Estadio BBVA\, Monterrey\, Mexico (モンテレイ)
+DESCRIPTION:FIFAワールドカップ2026 ラウンド32 第75試合\n日本がグループF 1位通過した場合: グループC 2位 と対戦\nキックオフ予定: 2026年6月30日(火) 10:00 JST\n※グループステージ終了後に確定
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-r32-2nd@claude
+DTSTAMP:20260517T000000Z
+DTSTART;TZID=Asia/Tokyo:20260630T020000
+DTEND;TZID=Asia/Tokyo:20260630T040000
+SUMMARY:【W杯2026・暫定】ラウンド32 ※グループF 2位通過時
+LOCATION:NRG Stadium\, Houston\, Texas\, USA (ヒューストン)
+DESCRIPTION:FIFAワールドカップ2026 ラウンド32 第76試合\n日本がグループF 2位通過した場合: グループC 1位 と対戦\nキックオフ予定: 2026年6月30日(火) 2:00 JST\n※グループステージ終了後に確定
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
