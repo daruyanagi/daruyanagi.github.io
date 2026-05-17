@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-05-02T23:24:17.4646250+09:00
 title: XTimelineViewer v1.2.0 をリリースしました
 tags: ['XTimelineViewer', 'Release']
@@ -27,7 +27,7 @@ XTimelineViewer v1.2.0 をリリースしました。
 - その他
     - 設定ダイアログにバージョン情報と Issue 報告リンクを追加
 
-{{< twitter user="status" id="2050228874429309169" >}}
+{{< x user="daruyanagi" id="2050228874429309169" >}}
 
 <script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
 <ms-store-badge
@@ -42,7 +42,7 @@ XTimelineViewer v1.2.0 をリリースしました。
 
 Microsoft Store への公開も自動化しようと CI を組んでいたのだけど、ここでかなりハマった。
 
-{{< twitter user="daruyanagi" id="2050370582479524326" >}}
+{{< x user="daruyanagi" id="2050370582479524326" >}}
 
 とりあえず今回は手動で登録して、次回は CI を回せるようにしようと思う。
 
@@ -50,7 +50,7 @@ Microsoft Store への公開も自動化しようと CI を組んでいたのだ
 
 多言語対応と Microsoft Store への提出自動化のテストを実施
 
-{{< twitter user="status" id="2050653354251166005" >}}
+{{< x user="daruyanagi" id="2050653354251166005" >}}
 
 ストアアプリ版でも多言語対応が動くかはちょっと不安だけど、まぁ、様子見。
 
