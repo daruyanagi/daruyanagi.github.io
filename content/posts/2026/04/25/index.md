@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-04-25T05:15:46.6900374+09:00
 title: XTimelineViewerが窓の杜で紹介されました
 tags: ['XTimelineViewer', 'Release']
@@ -21,13 +21,13 @@ draft: false
 
 ### 複数アカウントのTLを同時に表示できてポストできないか
 
-{{< twitter user="status" id="2047071007710822534" >}}
+{{< x user="daruyanagi" id="2047071007710822534" >}}
 
 v1.1 で試験機能として TwitterTimelineLoader と競合しないように投稿画面の **プロファイルを分離** する機能を実装しています。それを応用すれば、マルチプロファイルに対応することは可能かと思いますので、今後の課題としておきます。
 
 ### リストには対応していないのか？
 
-{{< twitter user="status" id="2047258885510361294" >}}
+{{< x user="daruyanagi" id="2047258885510361294" >}}
 
 ![リストを表示](image2.png)
 
