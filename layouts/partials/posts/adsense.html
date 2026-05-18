@@ -1,0 +1,9 @@
+{{ with .Site.Params.adsenseSlot }}
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="{{ $.Site.Params.adsensePublisher }}"
+     data-ad-slot="{{ . }}"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+{{ end }}
