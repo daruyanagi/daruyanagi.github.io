@@ -1,11 +1,9 @@
 {{ with .Site.Params.adsenseSlot }}
-<div style="margin: 2rem 0;">
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="{{ $.Site.Params.adsensePublisher }}"
-       data-ad-slot="{{ . }}"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="{{ $.Site.Params.adsensePublisher }}"
+     data-ad-slot="{{ . }}"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 {{ end }}
