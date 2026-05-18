@@ -31,6 +31,8 @@
         {{ .Content }}
       </div>
 
+      {{ partial "posts/adsense.html" . }}
+
       <footer>
         <div class="post-meta">
           {{ with .GetTerms "authors" }}{{ partial "taxonomy/authors.html" . }}{{ end }}
