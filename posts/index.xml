@@ -1,27 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on daruyanagi</title><link>https://daruyanagi.jp/posts/</link><description>Recent content in Posts on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 20 May 2026 14:22:20 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub のアクティビティを取得して、IFTTT で X や Bluesky へ投稿</title><link>https://daruyanagi.jp/posts/2026/05/18/</link><pubDate>Mon, 18 May 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/18/</guid><description>&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="tl" dir="ltr"&gt;daruyanagi contributed to daruyanagi/XTimelineViewer &lt;a href="https://t.co/hQsIvFQqes"&gt;https://t.co/hQsIvFQqes&lt;/a&gt;&lt;/p&gt;&amp;mdash; だるやなぎ (@daruyanagi) &lt;a href="https://twitter.com/daruyanagi/status/2055887466075197527?ref_src=twsrc%5Etfw"&gt;May 17, 2026&lt;/a&gt;&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on daruyanagi</title><link>https://daruyanagi.jp/posts/</link><description>Recent content in Posts on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 24 May 2026 16:21:56 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>XTimelineViewer 1.4.0 をリリースしました</title><link>https://daruyanagi.jp/posts/2026/05/20/</link><pubDate>Wed, 20 May 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/20/</guid><description>&lt;p&gt;v1.4.0 をリリースしました。目玉機能はマルチプロファイル対応ですが、まだ試験機能という扱いです。こまごま不具合があるので、使いたい人だけどうぞ。既知の問題はイシューをチェックしてください。&lt;/p&gt;</description></item><item><title>GitHub のアクティビティを取得して、IFTTT で X や Bluesky へ投稿</title><link>https://daruyanagi.jp/posts/2026/05/18/</link><pubDate>Mon, 18 May 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/18/</guid><description>&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="tl" dir="ltr"&gt;daruyanagi contributed to daruyanagi/XTimelineViewer &lt;a href="https://t.co/hQsIvFQqes"&gt;https://t.co/hQsIvFQqes&lt;/a&gt;&lt;/p&gt;&amp;mdash; だるやなぎ داروياناغي (@daruyanagi) &lt;a href="https://twitter.com/daruyanagi/status/2055887466075197527?ref_src=twsrc%5Etfw"&gt;May 17, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
-&lt;p&gt;こんな感じで、GitHub のアクティビティを取得して、IFTTT で X や Bluesky へ投稿できるようにする。&lt;/p&gt;
-&lt;h2 id="必要なもの"&gt;
- 必要なもの
- &lt;a class="heading-link" href="#%e5%bf%85%e8%a6%81%e3%81%aa%e3%82%82%e3%81%ae"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;RSS：&lt;code&gt;https://github.com/{username}.atom&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;IFTTT アカウント：X への投稿には Pro プランが必要&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="手順"&gt;
- 手順
- &lt;a class="heading-link" href="#%e6%89%8b%e9%a0%86"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;&lt;img src="image1.jpg" alt="IFTTT でアプレットを新規作成する画面"&gt;&lt;/p&gt;</description></item><item><title>ワールドカップ 2026 における日本代表の試合スケジュール</title><link>https://daruyanagi.jp/posts/2026/05/17/</link><pubDate>Sun, 17 May 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/17/</guid><description>&lt;p&gt;&lt;img src="image1.jpg" alt="三苫のユニフォーム (´；ω；`)ｳｩｩ"&gt;&lt;/p&gt;
+&lt;p&gt;こんな感じで、GitHub のアクティビティを取得して、IFTTT で X や Bluesky へ投稿できるようにする。&lt;/p&gt;</description></item><item><title>ワールドカップ 2026 における日本代表の試合スケジュール</title><link>https://daruyanagi.jp/posts/2026/05/17/</link><pubDate>Sun, 17 May 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/17/</guid><description>&lt;p&gt;&lt;img src="image1.jpg" alt="三苫のユニフォーム (´；ω；`)ｳｩｩ"&gt;&lt;/p&gt;
 &lt;p&gt;ワールドカップ 2026 の日本代表メンバーが発表された。&lt;/p&gt;
 &lt;p&gt;三苫の怪我快癒を祈念して代表のユニフォームを買ったのに、結局、選に漏れて泣いている。実のところ、あわよくば決勝とまでいかずとも、そこそこよいところまでイケるのではないかと期待していたが、相当難しくなったのでは。メンバーにしても、FW を削るか、長友の代わりに守田を入れないとボランチが不足しないか心配だが……もう決まったことなので、だれが要る、要らないの話はキッパリとやめて、応援に集中することにする。&lt;/p&gt;</description></item><item><title>XTimelineViewer 1.3.0 をリリースしました</title><link>https://daruyanagi.jp/posts/2026/05/16/</link><pubDate>Sat, 16 May 2026 14:20:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/16/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="タイムラインヘッダー左端に URL 種別アイコンを追加"&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -46,4 +27,4 @@
 &lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer/releases/tag/v1.1.0" class="external-link" target="_blank" rel="noopener"&gt;Release v1.1.0 · daruyanagi/XTimelineViewer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;変更点は以下の通り。GitHub のリリースノートは Claude 任せなので、こっちの方が正しいというか、人間の意図が反映されています。&lt;/p&gt;</description></item><item><title>N-VAN e の見積もりに行ったら、Super One を契約してた</title><link>https://daruyanagi.jp/posts/2026/04/26/</link><pubDate>Sun, 26 Apr 2026 06:09:55 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/04/26/</guid><description>&lt;p&gt;&lt;img src="image1.jpg" alt="Super One の試乗車"&gt;&lt;/p&gt;
 &lt;p&gt;土曜日、ホンダの営業さんが「N-VAN e を安くしますよ」というので、親父を連れて話を聞きに行ってきた。話題の Super One （ZAA-JG6）にも興味があったので、そっちの見積もりもとってもらい、比較してみる。&lt;/p&gt;</description></item><item><title>XTimelineViewerが窓の杜で紹介されました</title><link>https://daruyanagi.jp/posts/2026/04/25/</link><pubDate>Sat, 25 Apr 2026 05:15:46 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/04/25/</guid><description>&lt;p&gt;新しく開発したアプリケーション「XTimelineViewer」が、窓の杜（まどのもり）で紹介されました。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://forest.watch.impress.co.jp/docs/review/2103113.html" class="external-link" target="_blank" rel="noopener"&gt;「X Pro」難民に捧ぐ！複数タイムライン同時表示X（Twitter）アプリ「XTimelineViewer」【レビュー】 - 窓の杜&lt;/a&gt;&lt;/p&gt;</description></item><item><title>ハンターカブの左リアにペリカンケースをぶら下げる</title><link>https://daruyanagi.jp/posts/2024/05/20/</link><pubDate>Mon, 20 May 2024 23:26:37 +0900</pubDate><guid>https://daruyanagi.jp/posts/2024/05/20/</guid><description>&lt;p&gt;日曜日は天気がぐずぐずしていたので仕事をし、月曜日に休むことにした。起きたら、もう正午過ぎ。ハンターカブで三津港に行き、やろうとしていたカスタムに取り組んだ。天気は快晴で、平日のせいか釣り人もいない。椅子を組み立て、軽い昼食を摂り、工具袋を広げた。&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://forest.watch.impress.co.jp/docs/review/2103113.html" class="external-link" target="_blank" rel="noopener"&gt;「X Pro」難民に捧ぐ！複数タイムライン同時表示X（Twitter）アプリ「XTimelineViewer」【レビュー】 - 窓の杜&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
