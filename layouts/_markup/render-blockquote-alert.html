@@ -1,0 +1,21 @@
+{{- $icons := dict
+  "note"      "fa-circle-info"
+  "tip"       "fa-lightbulb"
+  "important" "fa-circle-exclamation"
+  "warning"   "fa-triangle-exclamation"
+  "caution"   "fa-fire"
+-}}
+{{- $labels := dict
+  "note"      "メモ"
+  "tip"       "ヒント"
+  "important" "重要"
+  "warning"   "警告"
+  "caution"   "注意"
+-}}
+<blockquote class="alert alert-{{ .AlertType }}">
+  <p class="alert-title">
+    <i class="fa-solid {{ index $icons .AlertType }}" aria-hidden="true"></i>
+    {{ index $labels .AlertType }}
+  </p>
+  {{ .Text }}
+</blockquote>
