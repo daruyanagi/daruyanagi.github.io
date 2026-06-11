@@ -1,0 +1,64 @@
+/* GitHub-style Markdown alerts */
+
+.alert {
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid;
+  border-radius: 4px;
+}
+
+.alert > *:last-child {
+  margin-bottom: 0;
+}
+
+.alert-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* NOTE */
+.alert-note {
+  border-color: #1f6feb;
+  background-color: rgba(31, 111, 235, 0.07);
+}
+.alert-note .alert-title { color: #1f6feb; }
+
+/* TIP */
+.alert-tip {
+  border-color: #238636;
+  background-color: rgba(35, 134, 54, 0.07);
+}
+.alert-tip .alert-title { color: #238636; }
+
+/* IMPORTANT */
+.alert-important {
+  border-color: #8957e5;
+  background-color: rgba(137, 87, 229, 0.07);
+}
+.alert-important .alert-title { color: #8957e5; }
+
+/* WARNING */
+.alert-warning {
+  border-color: #d29922;
+  background-color: rgba(210, 153, 34, 0.07);
+}
+.alert-warning .alert-title { color: #d29922; }
+
+/* CAUTION */
+.alert-caution {
+  border-color: #da3633;
+  background-color: rgba(218, 54, 51, 0.07);
+}
+.alert-caution .alert-title { color: #da3633; }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .alert-note    { background-color: rgba(31, 111, 235, 0.1); }
+  .alert-tip     { background-color: rgba(35, 134, 54, 0.1); }
+  .alert-important { background-color: rgba(137, 87, 229, 0.1); }
+  .alert-warning { background-color: rgba(210, 153, 34, 0.1); }
+  .alert-caution { background-color: rgba(218, 54, 51, 0.1); }
+}
