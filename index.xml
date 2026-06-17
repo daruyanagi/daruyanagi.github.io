@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>daruyanagi</title><link>https://daruyanagi.jp/</link><description>Recent content on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 11 Jun 2026 21:04:56 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/index.xml" rel="self" type="application/rss+xml"/><item><title>XTimelineViewer v1.5.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/11/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/11/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.5.0 をリリースしました。v1.4.0（マルチプロファイル対応）から約 2 週間、かなりの量の変更が入っています。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>daruyanagi</title><link>https://daruyanagi.jp/</link><description>Recent content on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 18 Jun 2026 04:18:16 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/index.xml" rel="self" type="application/rss+xml"/><item><title>XTimelineViewer v1.6.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/18/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/18/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.6.0 をリリースしました。v1.5.0 から 1 週間ほど、目玉は &lt;strong&gt;検索機能&lt;/strong&gt; です。&lt;/p&gt;
+&lt;h2 id="新機能"&gt;
+ 新機能
+ &lt;a class="heading-link" href="#%e6%96%b0%e6%a9%9f%e8%83%bd"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="ツールバーの検索ボックス182"&gt;
+ ツールバーの検索ボックス（&lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/182" class="external-link" target="_blank" rel="noopener"&gt;#182&lt;/a&gt;）
+ &lt;a class="heading-link" href="#%e3%83%84%e3%83%bc%e3%83%ab%e3%83%90%e3%83%bc%e3%81%ae%e6%a4%9c%e7%b4%a2%e3%83%9c%e3%83%83%e3%82%af%e3%82%b9182"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;ツールバーの中央に検索ボックスを追加しました。クエリを入力すると X の検索結果がダイアログで表示され、タブ（最新・ユーザー・メディアなど）の切り替えやクエリの編集もそのままできます。&lt;/p&gt;</description></item><item><title>XTimelineViewer v1.5.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/11/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/11/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.5.0 をリリースしました。v1.4.0（マルチプロファイル対応）から約 2 週間、かなりの量の変更が入っています。&lt;/p&gt;
 &lt;h2 id="新機能"&gt;
  新機能
  &lt;a class="heading-link" href="#%e6%96%b0%e6%a9%9f%e8%83%bd"&gt;
@@ -30,7 +45,4 @@
 &lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer/releases/tag/v1.2.0" class="external-link" target="_blank" rel="noopener"&gt;Release v1.2.0 · daruyanagi/XTimelineViewer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;変更点は以下の通り。アプリアイコンは Claude ではなく Gemini にお願いしました。縦に並ぶさまざまなタイムラインをイメージした背景に X のロゴを配しています。&lt;/p&gt;</description></item><item><title>亀山～鳥羽 旅行</title><link>https://daruyanagi.jp/posts/2026/05/01/</link><pubDate>Fri, 01 May 2026 05:46:03 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/05/01/</guid><description>&lt;p&gt;&lt;img src="image1.jpg" alt="亀山～鳥羽 旅行"&gt;&lt;/p&gt;
 &lt;p&gt;今年の GW は旧友の N 氏と亀山・鳥羽へ出かけた。オレンジフェリーで東予から南港に向かい、明朝、奈良県田原本町で合流。&lt;/p&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;俺の GW が始まった ᕦ(ò_óˇ)ᕤ &lt;a href="https://t.co/NFfSYClBoj"&gt;pic.twitter.com/NFfSYClBoj&lt;/a&gt;&lt;/p&gt;</description></item><item><title>XTimelineViewer v1.1.0 をリリースしました</title><link>https://daruyanagi.jp/posts/2026/04/27/</link><pubDate>Mon, 27 Apr 2026 01:08:43 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/04/27/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="XTimelineViewer v1.1.0 をリリース"&gt;&lt;/p&gt;
-&lt;p&gt;XTimelineViewer v1.1.0 をリリースしました。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer/releases/tag/v1.1.0" class="external-link" target="_blank" rel="noopener"&gt;Release v1.1.0 · daruyanagi/XTimelineViewer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;変更点は以下の通り。GitHub のリリースノートは Claude 任せなので、こっちの方が正しいというか、人間の意図が反映されています。&lt;/p&gt;</description></item></channel></rss>
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;俺の GW が始まった ᕦ(ò_óˇ)ᕤ &lt;a href="https://t.co/NFfSYClBoj"&gt;pic.twitter.com/NFfSYClBoj&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
