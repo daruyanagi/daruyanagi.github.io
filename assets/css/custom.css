@@ -223,6 +223,12 @@ p:has(> img) {
   margin: 2rem auto 0;
 }
 
+/* フッターの GitHub Sponsors ボタン */
+.sponsor-button {
+  margin-top: 1rem;
+  line-height: 0;
+}
+
 .web-card {
   border: 1px solid var(--gh-border);
   border-radius: 0.6rem;
