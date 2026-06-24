@@ -20,6 +20,7 @@ body {
   --gh-border: #d0d7de;
   --gh-muted: #59636e;
   --gh-code-bg: rgba(175, 184, 193, 0.2);
+  --gh-pre-bg: #f6f8fa;
   --gh-stripe-bg: rgba(140, 149, 159, 0.1);
   --gh-alert-alpha: 0.07;
 }
@@ -28,6 +29,7 @@ body.colorscheme-dark {
   --gh-border: #444c56;
   --gh-muted: #9198a1;
   --gh-code-bg: rgba(110, 118, 129, 0.4);
+  --gh-pre-bg: #18181b;
   --gh-alert-alpha: 0.1;
 }
 
@@ -36,6 +38,7 @@ body.colorscheme-dark {
     --gh-border: #444c56;
     --gh-muted: #9198a1;
     --gh-code-bg: rgba(110, 118, 129, 0.4);
+    --gh-pre-bg: #18181b;
     --gh-alert-alpha: 0.1;
   }
 }
@@ -124,6 +127,17 @@ body:is(.colorscheme-light, .colorscheme-dark, .colorscheme-auto) pre code {
   border-radius: 0;
   background-color: inherit;
   color: inherit;
+}
+
+/* ===== コードブロック（本文背景と区別） =====
+   theme の pre は背景未指定で本文と同色になり区別しづらいので、
+   一段沈んだ背景＋枠線を与える。左端は 1 文字分ほど余白を足す。
+   chroma（言語指定あり）のインラインスタイルは !important なしなので
+   上書きしない。 */
+body:is(.colorscheme-light, .colorscheme-dark, .colorscheme-auto) pre {
+  background-color: var(--gh-pre-bg);
+  border: 1px solid var(--gh-border);
+  padding-left: 2rem;
 }
 
 /* ===== 引用（GitHub 風: 斜体をやめてグレー文字に） ===== */
