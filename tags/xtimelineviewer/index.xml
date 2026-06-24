@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XTimelineViewer on daruyanagi</title><link>https://daruyanagi.jp/tags/xtimelineviewer/</link><description>Recent content in XTimelineViewer on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 22 Jun 2026 10:11:29 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/tags/xtimelineviewer/index.xml" rel="self" type="application/rss+xml"/><item><title>XTimelineViewer v1.7.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/22/</link><pubDate>Mon, 22 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/22/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.7.0 をリリースしました。v1.6.0 から数日、今回はキーボードによるフォーカス移動の改善と、ホームタイムライン自動更新の内製化が中心です。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XTimelineViewer on daruyanagi</title><link>https://daruyanagi.jp/tags/xtimelineviewer/</link><description>Recent content in XTimelineViewer on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 24 Jun 2026 23:11:59 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/tags/xtimelineviewer/index.xml" rel="self" type="application/rss+xml"/><item><title>XTimelineViewer v1.8.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/24/</link><pubDate>Wed, 24 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/24/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.8.0 をリリースしました。今回は設定ページの再編と、投稿ダイアログ（コンポーザー）まわりの大幅な改善が中心です。&lt;/p&gt;
+&lt;h2 id="設定ページの再編"&gt;
+ 設定ページの再編
+ &lt;a class="heading-link" href="#%e8%a8%ad%e5%ae%9a%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e5%86%8d%e7%b7%a8"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="ユーザーインターフェイスページを新設236"&gt;
+ ［ユーザーインターフェイス］ページを新設（&lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/236" class="external-link" target="_blank" rel="noopener"&gt;#236&lt;/a&gt;）
+ &lt;a class="heading-link" href="#%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%95%e3%82%a7%e3%82%a4%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e6%96%b0%e8%a8%ad236"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;設定が増えてきて［全般］ページがごちゃついてきたので、テーマ・言語を新しい［ユーザーインターフェイス］ページに移しました。ナビゲーションでは［全般］のすぐ下に並びます。&lt;/p&gt;</description></item><item><title>XTimelineViewer v1.7.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/22/</link><pubDate>Mon, 22 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/22/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.7.0 をリリースしました。v1.6.0 から数日、今回はキーボードによるフォーカス移動の改善と、ホームタイムライン自動更新の内製化が中心です。&lt;/p&gt;
 &lt;h2 id="新機能"&gt;
  新機能
  &lt;a class="heading-link" href="#%e6%96%b0%e6%a9%9f%e8%83%bd"&gt;
