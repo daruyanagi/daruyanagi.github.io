@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:W杯2026 日本代表戦
 X-WR-TIMEZONE:Asia/Tokyo
-X-WR-CALDESC:FIFAワールドカップ2026 日本代表 グループステージ全試合 (JST)
+X-WR-CALDESC:FIFAワールドカップ2026 日本代表（グループF 2位通過）グループステージ＋決勝までの勝ち上がり想定 (JST)
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
 BEGIN:STANDARD
@@ -46,23 +46,53 @@ DESCRIPTION:FIFAワールドカップ2026 グループF 第3節\n日本代表 vs
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:wc2026-japan-r32-1st@claude
-DTSTAMP:20260517T000000Z
-DTSTART;TZID=Asia/Tokyo:20260630T100000
-DTEND;TZID=Asia/Tokyo:20260630T120000
-SUMMARY:【W杯2026・暫定】ラウンド32 ※グループF 1位通過時
-LOCATION:Estadio BBVA\, Monterrey\, Mexico (モンテレイ)
-DESCRIPTION:FIFAワールドカップ2026 ラウンド32 第75試合\n日本がグループF 1位通過した場合: グループC 2位 と対戦\nキックオフ予定: 2026年6月30日(火) 10:00 JST\n※グループステージ終了後に確定
+UID:wc2026-japan-r32-2nd@claude
+DTSTAMP:20260629T000000Z
+DTSTART;TZID=Asia/Tokyo:20260630T020000
+DTEND;TZID=Asia/Tokyo:20260630T040000
+SUMMARY:【W杯2026】ラウンド32 日本(グループF 2位) vs グループC 1位
+LOCATION:NRG Stadium\, Houston\, Texas\, USA (ヒューストン)
+DESCRIPTION:FIFAワールドカップ2026 ラウンド32 第76試合\n日本（グループF 2位）vs グループC 1位\nキックオフ予定: 2026年6月30日(火) 2:00 JST\n現地時間: 2026年6月29日(月) 12:00 CDT\n会場: NRG Stadium (ヒューストン)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-r16-2nd@claude
+DTSTAMP:20260629T000000Z
+DTSTART;TZID=Asia/Tokyo:20260706T050000
+DTEND;TZID=Asia/Tokyo:20260706T070000
+SUMMARY:【W杯2026・暫定】ラウンド16
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA (ニューヨーク近郊)
+DESCRIPTION:FIFAワールドカップ2026 ラウンド16 第91試合\n日本がラウンド32(第76試合)を勝ち上がった場合の日程\nキックオフ予定: 2026年7月6日(月) 5:00 JST\n現地時間: 2026年7月5日(日) 16:00 EDT\n会場: MetLife Stadium (イーストラザフォード／ニューヨーク近郊)\n※対戦相手は他の試合の結果により確定
 STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
-UID:wc2026-japan-r32-2nd@claude
-DTSTAMP:20260517T000000Z
-DTSTART;TZID=Asia/Tokyo:20260630T020000
-DTEND;TZID=Asia/Tokyo:20260630T040000
-SUMMARY:【W杯2026・暫定】ラウンド32 ※グループF 2位通過時
-LOCATION:NRG Stadium\, Houston\, Texas\, USA (ヒューストン)
-DESCRIPTION:FIFAワールドカップ2026 ラウンド32 第76試合\n日本がグループF 2位通過した場合: グループC 1位 と対戦\nキックオフ予定: 2026年6月30日(火) 2:00 JST\n※グループステージ終了後に確定
+UID:wc2026-japan-qf-2nd@claude
+DTSTAMP:20260629T000000Z
+DTSTART;TZID=Asia/Tokyo:20260712T060000
+DTEND;TZID=Asia/Tokyo:20260712T080000
+SUMMARY:【W杯2026・暫定】準々決勝
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA (マイアミ)
+DESCRIPTION:FIFAワールドカップ2026 準々決勝 第99試合\n日本が勝ち上がった場合の日程\nキックオフ予定: 2026年7月12日(日) 6:00 JST\n現地時間: 2026年7月11日(土) 17:00 EDT\n会場: Hard Rock Stadium (マイアミ)\n※対戦相手は他の試合の結果により確定
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-sf-2nd@claude
+DTSTAMP:20260629T000000Z
+DTSTART;TZID=Asia/Tokyo:20260716T040000
+DTEND;TZID=Asia/Tokyo:20260716T060000
+SUMMARY:【W杯2026・暫定】準決勝
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA (アトランタ)
+DESCRIPTION:FIFAワールドカップ2026 準決勝 第102試合\n日本が勝ち上がった場合の日程\nキックオフ予定: 2026年7月16日(木) 4:00 JST\n現地時間: 2026年7月15日(水) 15:00 EDT\n会場: Mercedes-Benz Stadium (アトランタ)\n※対戦相手は他の試合の結果により確定
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-japan-final@claude
+DTSTAMP:20260629T000000Z
+DTSTART;TZID=Asia/Tokyo:20260720T040000
+DTEND;TZID=Asia/Tokyo:20260720T060000
+SUMMARY:【W杯2026・暫定】決勝
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA (ニューヨーク近郊)
+DESCRIPTION:FIFAワールドカップ2026 決勝 第103試合\n日本が決勝まで勝ち上がった場合の日程\nキックオフ予定: 2026年7月20日(月) 4:00 JST\n現地時間: 2026年7月19日(日) 15:00 EDT\n会場: MetLife Stadium (イーストラザフォード／ニューヨーク近郊)
 STATUS:TENTATIVE
 END:VEVENT
 END:VCALENDAR
