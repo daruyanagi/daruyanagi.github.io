@@ -1,3 +1,4 @@
 public/
 docs/
 content/apps/xtimelineviewer/index.md
+.playwright-mcp/
