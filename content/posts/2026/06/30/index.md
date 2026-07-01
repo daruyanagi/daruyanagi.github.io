@@ -41,3 +41,11 @@ winget install daruyanagi.XTimelineViewer
 ```
 
 winget でインストールすると、次回からはアプリ内からアップデートできます。Microsoft Store からインストールした場合は、Store が自動で更新の面倒を見てくれるはずです。
+
+## 追記（2026-07-01 11:00）
+
+なんかアプリ名変えないと Microsoft Store の審査に通らないっぽいので、もう Microsoft Store に出すのはやめます。申し訳ないですが、利用中の方がいれば winget でインストールしなおしてください。
+
+{{< x user="daruyanagi" id="2072136423516561606" >}}
+
+とりあえず統計上は 100 人ぐらいいるっぽいですけど……すみません
