@@ -26,9 +26,14 @@ jobs:
       - name: Fetch XTimelineViewer README
         run: |
           python3 - << 'EOF'
+          import os
+          import re
           import urllib.request
 
-          url = "https://raw.githubusercontent.com/daruyanagi/XTimelineViewer/main/README.md"
+          repo_raw = "https://raw.githubusercontent.com/daruyanagi/XTimelineViewer/main/"
+          dest_dir = "content/apps/xtimelineviewer"
+
+          url = repo_raw + "README.md"
           with urllib.request.urlopen(url) as f:
               content = f.read().decode("utf-8")
 
@@ -45,12 +50,32 @@ jobs:
 
           front_matter = f'---\ntitle: "{title}"\n---\n\n'
 
-          import os
-          os.makedirs("content/apps/xtimelineviewer", exist_ok=True)
-          with open("content/apps/xtimelineviewer/index.md", "w", encoding="utf-8") as f:
+          os.makedirs(dest_dir, exist_ok=True)
+          with open(os.path.join(dest_dir, "index.md"), "w", encoding="utf-8") as f:
               f.write(front_matter + body)
 
           print(f"Generated: {title}")
+
+          # README が参照する画像も同じリポジトリから取得して page bundle に配置する。
+          # ![alt](path) と <img src="path"> の相対パスが対象（http(s) は除外）。
+          refs = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', body)
+          refs += re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', body)
+
+          seen = set()
+          for ref in refs:
+              path = ref.split()[0].split("#")[0].strip()
+              if not path or path.startswith(("http://", "https://", "data:", "/")):
+                  continue
+              if path in seen:
+                  continue
+              seen.add(path)
+              dest = os.path.join(dest_dir, path)
+              os.makedirs(os.path.dirname(dest), exist_ok=True)
+              try:
+                  urllib.request.urlretrieve(repo_raw + path, dest)
+                  print(f"Fetched image: {path}")
+              except Exception as e:
+                  print(f"Skip image {path}: {e}")
           EOF
 
       - name: Build
