@@ -51,4 +51,6 @@ winget からもそのうちインストールできるようになるはず。
 
 技術的には Windows App SDK / WinUI 3 製で、Windows 10 バージョン 1809 以降 / Windows 11 で動きます。ライセンスは MIT です。
 
+## 追記（2026-07-14 07:00）
 
+その後 [v1.0.1](https://github.com/daruyanagi/Petapeta/releases/tag/v1.0.1) で、上に書いたスタートアップの不具合を修正しました。自動開始の仕組みを `shell:startup` フォルダーにショートカットを置く方式に変更したところ、Windows 起動時の自動開始・最小化起動がきちんと動くようになりました。
