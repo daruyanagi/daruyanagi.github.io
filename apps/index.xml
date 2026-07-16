@@ -1,3 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apps on daruyanagi</title><link>https://daruyanagi.jp/apps/</link><description>Recent content in Apps on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><atom:link href="https://daruyanagi.jp/apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Petapeta ～ クリップボードの画像やテキストをファイルにする常駐ツール</title><link>https://daruyanagi.jp/apps/petapeta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://daruyanagi.jp/apps/petapeta/</guid><description>&lt;p&gt;むかし &lt;a href="https://ja.wikipedia.org/wiki/BeOS" class="external-link" target="_blank" rel="noopener"&gt;BeOS&lt;/a&gt; を使っていたとき、クリップボードにコピーした画像やテキストをデスクトップに貼り付けると、自動的にファイルができるという機能がありました。ちょっとしたスクラップを集めておくのにとても便利だったので、あの挙動を Windows で再現しようと Claude の助けを借りて開発しました。&lt;/p&gt;</description></item><item><title>XTimelineViewer（xTV） ～ 貧乏人のための「X Pro」（TweetDeck）</title><link>https://daruyanagi.jp/apps/xtimelineviewer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://daruyanagi.jp/apps/xtimelineviewer/</guid><description>&lt;p&gt;&lt;img src="docs/app_icon_64.jpg" alt="XTimelineViewer（xTV） アイコン"&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apps on daruyanagi</title><link>https://daruyanagi.jp/apps/</link><description>Recent content in Apps on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><atom:link href="https://daruyanagi.jp/apps/index.xml" rel="self" type="application/rss+xml"/><item><title>Petapeta</title><link>https://daruyanagi.jp/apps/petapeta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://daruyanagi.jp/apps/petapeta/</guid><description>&lt;div align="center"&gt;
+ &lt;img src="docs/icon.png" width="120" alt="Petapeta" /&gt;
+&lt;p&gt;&lt;strong&gt;コピーした画像やテキストを、デスクトップやフォルダーへそのまま「ペタッ」と貼り付けられるようにする常駐ツール&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id="これは何"&gt;
+ これは何？
+ &lt;a class="heading-link" href="#%e3%81%93%e3%82%8c%e3%81%af%e4%bd%95"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;私がかつて使っていた BeOS では、画像やテキストをクロップボードへコピーしてデスクトップに貼り付けると、勝手にファイルになってくれました（という記憶があります）。いろんなものをスクラップしてデスクトップに残しておきたいときに便利です。&lt;/p&gt;</description></item><item><title>XTimelineViewer（xTV） ～ 貧乏人のための「X Pro」（TweetDeck）</title><link>https://daruyanagi.jp/apps/xtimelineviewer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://daruyanagi.jp/apps/xtimelineviewer/</guid><description>&lt;p&gt;&lt;img src="docs/app_icon_64.jpg" alt="XTimelineViewer（xTV） アイコン"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://forest.watch.impress.co.jp/docs/news/2096749.html" class="external-link" target="_blank" rel="noopener"&gt;「X Pro」（TweetDeck）が突如「プレミアムプラス」プラン必須に&lt;/a&gt; なって困ったので、Claude の助けを借りて開発しました。&lt;/p&gt;
 &lt;p&gt;&lt;img src="docs/image1.png" alt="メイン画面"&gt;&lt;/p&gt;</description></item></channel></rss>
