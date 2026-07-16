@@ -23,59 +23,67 @@ jobs:
           hugo-version: '0.151.2'
           extended: true
 
-      - name: Fetch XTimelineViewer README
+      # content/apps/<slug>/index.md は各アプリの GitHub README からビルド時に自動生成する。
+      # README が参照する相対パスの画像も同リポジトリから取得して page bundle に配置するので、
+      # website リポジトリ側に画像を手動でコミットする必要はない（docs/ 配下も含めて自動で揃う）。
+      # 新しいアプリを追加するときは、下の APPS リストに {slug, repo} を足すだけでよい。
+      - name: Generate app pages from GitHub READMEs
         run: |
           python3 - << 'EOF'
           import os
           import re
           import urllib.request
 
-          repo_raw = "https://raw.githubusercontent.com/daruyanagi/XTimelineViewer/main/"
-          dest_dir = "content/apps/xtimelineviewer"
+          APPS = [
+              {"slug": "xtimelineviewer", "repo": "daruyanagi/XTimelineViewer"},
+              {"slug": "petapeta", "repo": "daruyanagi/Petapeta"},
+          ]
 
-          url = repo_raw + "README.md"
-          with urllib.request.urlopen(url) as f:
-              content = f.read().decode("utf-8")
+          for app in APPS:
+              slug, repo = app["slug"], app["repo"]
+              repo_raw = f"https://raw.githubusercontent.com/{repo}/main/"
+              dest_dir = f"content/apps/{slug}"
 
-          lines = content.split("\n")
-          title = "XTimelineViewer"
-          body_start = 0
-          for i, line in enumerate(lines):
-              if line.startswith("# "):
-                  title = line[2:].strip()
-                  body_start = i + 1
-                  break
+              with urllib.request.urlopen(repo_raw + "README.md") as f:
+                  content = f.read().decode("utf-8")
 
-          body = "\n".join(lines[body_start:]).lstrip("\n")
+              # 最初の「# 見出し」をタイトルとして取り出し、その行だけを本文から取り除く。
+              # （見出しが <div> などで囲まれてインデントされていても拾えるよう strip して判定）
+              lines = content.split("\n")
+              title = slug
+              for i, line in enumerate(lines):
+                  if line.strip().startswith("# "):
+                      title = line.strip()[2:].strip()
+                      del lines[i]
+                      break
+              body = "\n".join(lines).lstrip("\n")
 
-          front_matter = f'---\ntitle: "{title}"\n---\n\n'
+              front_matter = f'---\ntitle: "{title}"\n---\n\n'
+              os.makedirs(dest_dir, exist_ok=True)
+              with open(os.path.join(dest_dir, "index.md"), "w", encoding="utf-8") as f:
+                  f.write(front_matter + body)
+              print(f"[{slug}] Generated: {title}")
 
-          os.makedirs(dest_dir, exist_ok=True)
-          with open(os.path.join(dest_dir, "index.md"), "w", encoding="utf-8") as f:
-              f.write(front_matter + body)
+              # README が参照する画像も同じリポジトリから取得して page bundle に配置する。
+              # ![alt](path) と <img src="path"> の相対パスが対象（http(s)・data: は除外）。
+              refs = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', body)
+              refs += re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', body)
 
-          print(f"Generated: {title}")
-
-          # README が参照する画像も同じリポジトリから取得して page bundle に配置する。
-          # ![alt](path) と <img src="path"> の相対パスが対象（http(s) は除外）。
-          refs = re.findall(r'!\[[^\]]*\]\(([^)]+)\)', body)
-          refs += re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', body)
-
-          seen = set()
-          for ref in refs:
-              path = ref.split()[0].split("#")[0].strip()
-              if not path or path.startswith(("http://", "https://", "data:", "/")):
-                  continue
-              if path in seen:
-                  continue
-              seen.add(path)
-              dest = os.path.join(dest_dir, path)
-              os.makedirs(os.path.dirname(dest), exist_ok=True)
-              try:
-                  urllib.request.urlretrieve(repo_raw + path, dest)
-                  print(f"Fetched image: {path}")
-              except Exception as e:
-                  print(f"Skip image {path}: {e}")
+              seen = set()
+              for ref in refs:
+                  path = ref.split()[0].split("#")[0].strip()
+                  if not path or path.startswith(("http://", "https://", "data:", "/")):
+                      continue
+                  if path in seen:
+                      continue
+                  seen.add(path)
+                  dest = os.path.join(dest_dir, path)
+                  os.makedirs(os.path.dirname(dest), exist_ok=True)
+                  try:
+                      urllib.request.urlretrieve(repo_raw + path, dest)
+                      print(f"[{slug}] Fetched image: {path}")
+                  except Exception as e:
+                      print(f"[{slug}] Skip image {path}: {e}")
           EOF
 
       - name: Build

@@ -1,4 +1,6 @@
 public/
 docs/
-content/apps/xtimelineviewer/index.md
+# content/apps/<slug>/index.md はビルド時に GitHub README から自動生成する（.github/workflows/gh-pages.yml）
+# 手でコミットしないよう無視する。README が参照する画像も自動取得され docs/ ルールで無視される。
+content/apps/*/index.md
 .playwright-mcp/

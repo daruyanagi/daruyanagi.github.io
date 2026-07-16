@@ -36,6 +36,18 @@ draft: true
 4. **ALT テキスト確認**: 画像の ALT テキストが不適切（空・`alt text` のままなど）な場合は修正案を提案する
 5. **アイキャッチ画像確認**: フロントマターに `images:` セクションがあるか、記載ファイルが記事ディレクトリに実際に存在するかチェックし、不足・不一致があれば報告する
 
+## apps フォルダー（アプリ紹介ページ）
+
+`content/apps/<slug>/` のアプリ紹介ページは **手で編集しない**。GitHub Actions（[.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml)）が **ビルド時に各アプリの GitHub README から自動生成**する。
+
+- `index.md` は README から生成されるため `.gitignore` 済み（`content/apps/*/index.md`）。手でコミットしない
+- README が参照する相対パスの画像（`docs/*.png` など）も同リポジトリから**自動ダウンロード**して page bundle に配置される。website リポジトリ側に画像を手動でコミットする必要はない（`docs/` も `.gitignore` 済み）
+- **内容を直したいときは、対象アプリのリポジトリの README.md を編集する**（このリポジトリではない）
+- **新しいアプリを追加するとき**は、ワークフローの `APPS` リストに `{"slug": ..., "repo": "daruyanagi/..."}` を 1 行足すだけでよい
+- タイトルは README の最初の `# 見出し` から取得される（`<div>` などで囲まれてインデントされていても可）
+
+> 過去に画像を `content/apps/xtimelineviewer/` へ手動コミットしていたが、README 側は `docs/` を参照しておりパスが噛み合わずリンク切れになっていた。上記の自動取得方式に統一済み。
+
 ## 追記
 
 「追記して」と依頼されたら、記事の末尾に以下の見出しを追加してから内容を書く。
