@@ -99,14 +99,25 @@ function searchData(query) {
   if (query.length < 1) {
     return result;
   }
-  const re = new RegExp(query, 'i');
+  // 正規表現ではなくリテラルな部分一致で検索する（大文字小文字は無視）。
+  // "C++" や "Ctrl+N" のように正規表現の特殊文字を含む語でも壊れない。
+  const lowerQuery = query.toLowerCase();
   for (let i = 0; i < data.length; ++i) {
-    const pos = data[i].body.search(re);
+    const pos = data[i].body.toLowerCase().indexOf(lowerQuery);
     if (pos != -1) {
       result.push([i, pos, pos + query.length]);
     }
   }
   return result;
+}
+
+// innerHTML に差し込む前に HTML を無害化する
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function createHtml(result, query) {
@@ -125,16 +136,16 @@ function createHtml(result, query) {
 
 function createEntry(url, title, body, startPos, endPos, query) {
   return '<div class="item">' +
-      '<a class="item_title" href="' + url + '#:~:text=' + encodeURIComponent(query) + '">' + title + '</a>' +
+      '<a class="item_title" href="' + url + '#:~:text=' + encodeURIComponent(query) + '">' + escapeHtml(title) + '</a>' +
       '<div class="item_excerpt">' + excerpt(body, startPos, endPos) + '</div>' +
       '</div>';
 }
 
 function excerpt(body, startPos, endPos) {
   return [
-    body.substring(startPos - 30, startPos),
-    '<b>', body.substring(startPos, endPos), '</b>',
-    body.substring(endPos, endPos + 200)
+    escapeHtml(body.substring(startPos - 30, startPos)),
+    '<b>', escapeHtml(body.substring(startPos, endPos)), '</b>',
+    escapeHtml(body.substring(endPos, endPos + 200))
   ].join('');
 }
 
