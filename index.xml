@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>daruyanagi</title><link>https://daruyanagi.jp/</link><description>Recent content on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 27 Sep 2026 05:05:13 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/index.xml" rel="self" type="application/rss+xml"/><item><title>WebView2 に関する制限 - デスクトップにマウス操作不能なエリアができる</title><link>https://daruyanagi.jp/posts/2026/09/27/</link><pubDate>Sun, 27 Sep 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/09/27/</guid><description>&lt;p&gt;xTV でちょっと面白いフィードバックをいただきました。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>daruyanagi</title><link>https://daruyanagi.jp/</link><description>Recent content on daruyanagi</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 05 Oct 2026 17:55:29 +0900</lastBuildDate><atom:link href="https://daruyanagi.jp/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Chrome 拡張機能「Kataomoi」をリリースしました</title><link>https://daruyanagi.jp/posts/2026/10/05/</link><pubDate>Mon, 05 Oct 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/10/05/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="Chrome ウェブストアの Kataomoi のページ"&gt;&lt;/p&gt;
+&lt;p&gt;Google Chrome 拡張機能「&lt;a href="https://chromewebstore.google.com/detail/kataomoi/meneblblcalampbdefoeoekndcieiemc" class="external-link" target="_blank" rel="noopener"&gt;Kataomoi&lt;/a&gt;」をリリースしました。簡単に言うと、「X でフォローしているのにフォローバックされていないユーザー」を可視化するものです。ときどき悲しい気持ちになりますが、それでもいいという方は使ってみてください。&lt;/p&gt;</description></item><item><title>WebView2 に関する制限 - デスクトップにマウス操作不能なエリアができる</title><link>https://daruyanagi.jp/posts/2026/09/27/</link><pubDate>Sun, 27 Sep 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/09/27/</guid><description>&lt;p&gt;xTV でちょっと面白いフィードバックをいただきました。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/418" class="external-link" target="_blank" rel="noopener"&gt;ウィンドウ外に飛び出たカラムにも判定が残っておりデスクトップの操作が出来なくなる · Issue #418 · daruyanagi/XTimelineViewer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;自分も最初はよくわからなかったのですが……&lt;/p&gt;
 &lt;p&gt;&lt;img src="image1.png" alt="ウィンドウ（オレンジ）に WebView2（青）を 3 つ並べ、右端の 1 つがウィンドウからはみ出している図"&gt;&lt;/p&gt;</description></item><item><title>XTimelineViewer が拡張機能に再対応しました</title><link>https://daruyanagi.jp/posts/2026/09/26/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/09/26/</guid><description>&lt;p&gt;&lt;img src="image1.png" alt="拡張機能を入れた xTV。ツールバー右上に拡張機能のボタンが表示されている"&gt;&lt;/p&gt;
@@ -44,19 +45,4 @@
  &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
  &lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;設定が増えてきて［全般］ページがごちゃついてきたので、テーマ・言語を新しい［ユーザーインターフェイス］ページに移しました。ナビゲーションでは［全般］のすぐ下に並びます。&lt;/p&gt;</description></item><item><title>XTimelineViewer v1.7.0 をリリース</title><link>https://daruyanagi.jp/posts/2026/06/22/</link><pubDate>Mon, 22 Jun 2026 00:00:00 +0900</pubDate><guid>https://daruyanagi.jp/posts/2026/06/22/</guid><description>&lt;p&gt;&lt;a href="https://github.com/daruyanagi/XTimelineViewer" class="external-link" target="_blank" rel="noopener"&gt;XTimelineViewer&lt;/a&gt; の v1.7.0 をリリースしました。v1.6.0 から数日、今回はキーボードによるフォーカス移動の改善と、ホームタイムライン自動更新の内製化が中心です。&lt;/p&gt;
-&lt;h2 id="新機能"&gt;
- 新機能
- &lt;a class="heading-link" href="#%e6%96%b0%e6%a9%9f%e8%83%bd"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;h3 id="タイムラインの番号バッジと-ctrl数字でフォーカス切り替え225-226"&gt;
- タイムラインの番号バッジと Ctrl+数字でフォーカス切り替え（&lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/225" class="external-link" target="_blank" rel="noopener"&gt;#225&lt;/a&gt;, &lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/226" class="external-link" target="_blank" rel="noopener"&gt;#226&lt;/a&gt;）
- &lt;a class="heading-link" href="#%e3%82%bf%e3%82%a4%e3%83%a0%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%ae%e7%95%aa%e5%8f%b7%e3%83%90%e3%83%83%e3%82%b8%e3%81%a8-ctrl%e6%95%b0%e5%ad%97%e3%81%a7%e3%83%95%e3%82%a9%e3%83%bc%e3%82%ab%e3%82%b9%e5%88%87%e3%82%8a%e6%9b%bf%e3%81%88225-226"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;見出しへのリンク&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;タイムラインに左から順に番号（1, 2, 3, …）を割り当て、ヘッダーに番号バッジを表示するようにしました。&lt;code&gt;Ctrl+1&lt;/code&gt;〜&lt;code&gt;Ctrl+9&lt;/code&gt; で対応するタイムラインへ一発でフォーカスを切り替えられます。番号バッジにマウスを乗せると、そのタイムラインをアクティブ化するホットキー（&lt;code&gt;Ctrl+数字&lt;/code&gt;）がツールチップで表示されます。（&lt;a href="https://github.com/daruyanagi/XTimelineViewer/issues/237" class="external-link" target="_blank" rel="noopener"&gt;#237&lt;/a&gt;）&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;設定が増えてきて［全般］ページがごちゃついてきたので、テーマ・言語を新しい［ユーザーインターフェイス］ページに移しました。ナビゲーションでは［全般］のすぐ下に並びます。&lt;/p&gt;</description></item></channel></rss>
