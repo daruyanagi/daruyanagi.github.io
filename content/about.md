@@ -23,3 +23,7 @@ daruyanagi
 - [https://b.hatena.ne.jp/daruyanagi/bookmark](https://b.hatena.ne.jp/daruyanagi/bookmark)
 - [https://www.vector.co.jp/vpack/browse/person/an053039.html](https://www.vector.co.jp/vpack/browse/person/an053039.html)
 
+
+アプリについて
+- [プライバシーポリシー](/privacy/)
+- [利用規約](/terms/)
